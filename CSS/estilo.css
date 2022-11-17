@@ -1,0 +1,18 @@
+body{
+    margin: 50px;
+    padding: 50;
+    background-color: rgb(175, 172, 172);
+}
+
+.ab {
+
+    justify-content: space-between;
+    align-items: center;
+}
+.ab p {
+    color: rgb(148, 146, 146);
+}
+.card {
+    margin: 20px;
+    padding: 20px;
+}

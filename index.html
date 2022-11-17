@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+
+    <title></title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <form method="post" class="row g-3">
+                <div class="col-md-12">
+                    <div class="ab">
+                        <H1>Formulário de Contato</H1>
+                        <p>Digite as informções abaixo</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+
+                    <label for="inputName" class="form-label">Nome Completo:</label>
+                    <input type="name" class="form-control" id="inputName" placeholder="digite seu nome">
+                </div>
+
+                <div class="col-md-6">
+
+                    <label for="inputEmail" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="@ex.com">
+
+                </div>
+
+                <div class="col-6">
+
+                    <label id="btn-cadastrar3">Celular:</label>
+                    <input type="tel" class="form-control" id="inputCel" placeholder="DDD">
+
+                </div>
+
+                <div class="col-6">
+
+                    <label id="btn-cadastrar3">Telefone:</label>
+                    <input type="cel" class="form-control" id="inputTel" placeholder="DDD">
+                </div>
+
+
+
+                <div class="col-12">
+
+                    <label class="label">Assunto</label>
+
+                    <select id="assunto">
+                        <option >Selecione</option>
+                        <option >Elogio</option>
+                        <option >Dúvida</option>
+                        <option >Reclamação</option>
+                        <option >Sugestão</option>
+                        <option>Outro</option>
+                    </select>
+                </div>
+
+                <div class="col-12">
+                    <label class="label">Mensagem</label>
+                    <textarea id="inputMSN" class="textarea" placeholder="Deixe sua mensagem"
+                        maxlength="2000"></textarea>
+                </div>
+
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary" id="btn-cadastrar">Enviar</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <script src="JS/jquery.js"></script>
+    <script src="JS/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>
